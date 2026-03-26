@@ -20,3 +20,15 @@ O MVP (Minimum Viable Product) focado nesta entrega abrange o **Core Business Op
 - **RN03:** Toda venda a prazo concluída com sucesso deve gerar automaticamente um lançamento com status "Aberta" no módulo de Contas a Receber.
 - **RN04:** O saldo de estoque da unidade deve ser atualizado (reduzido ou incrementado) em tempo real após a confirmação de uma venda ou entrada de compra de fornecedor.
 - **RN05:** O sistema deve bloquear lançamentos financeiros (pagar/receber) com datas de vencimento retroativas à data atual do sistema.
+
+---
+
+# 3. Requisitos Funcionais
+- **RF01:** O sistema deve permitir a consulta de produtos por nome, código de barras ou fabricante.
+- **RF02:** O sistema deve permitir a identificação de clientes via CPF no momento do atendimento.
+- **RF03:** O sistema deve permitir o cadastro rápido de novos clientes diretamente no balcão.
+- **RF04:** O sistema deve verificar a disponibilidade de estoque antes de adicionar um item à venda.
+- **RF05:** O sistema deve permitir a finalização de vendas nas modalidades "à vista" ou "a prazo".
+- **RF06:** O sistema deve emitir um comprovante detalhado ao final de cada transação de venda.
+- **RF07:** O sistema deve permitir o registro de compras de mercadorias vinculando a um fornecedor.
+- **RF08:** O sistema deve gerar contas a pagar automaticamente após o registro de uma compra de fornecedor.
